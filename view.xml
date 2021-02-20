@@ -1,0 +1,21 @@
+<odoo>
+    <data>
+    	<record id="action_customers" model="ir.actions.act_window">
+			<field name="name">Customers</field>
+			<field name="res_model">flight.customer</field>
+			<!--<field name="view_type">form</field>-->
+			<field name="view_mode">tree,form</field>
+		</record>
+
+
+		<menuitem name="Fligt" id="root_menu"/>
+		
+		<menuitem name="Customers" id="customer_menu" parent="root_menu" action="action_customers"/>
+		
+
+
+    
+
+    </data>
+</odoo>
+

@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+customer_access_id,customer_access,model_MY-SCHOOL_customer,,1,1,1,1
